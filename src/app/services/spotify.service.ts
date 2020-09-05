@@ -16,7 +16,7 @@ export class SpotifyService {
     const url = `https://api.spotify.com/v1/${ query }`;
     const headers = new HttpHeaders({
       // tslint:disable-next-line: object-literal-key-quotes
-      'Authorization': 'Bearer BQDn4WJW1qPpGjx9oqbz_kn7zPbmxcKrFmOFcluHCp6dRL0WrEt2MnxRLnXIC9lLFLDuc3By3cF3n6M0DLDQ2IemNdQp7RBeTNz4tvpHCM7Z2z9CROUX2X6w6InPIAYSrh2rG8v9hNDb-OgRcxHgKauurCWsoxg'
+      'Authorization': 'Bearer [TOKEN GOES HERE]'
     });
     return this.http.get(url, { headers });
   }
